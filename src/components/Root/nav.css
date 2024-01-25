@@ -1,0 +1,13 @@
+.nav{
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 0;
+    background-color: green;
+}
+
+.nav li {
+    list-style: none;
+
+}

@@ -4,6 +4,8 @@ import Contact from "./components/Contact"
 import Projects from "./components/Projects"
 import Resume from "./components/Resume"
 import Root from "./components/Root"
+import Footer from "./components/Footer"
+
 
 function App() {
 const router = createBrowserRouter(
@@ -20,6 +22,7 @@ const router = createBrowserRouter(
   return (
     <>
 <RouterProvider router={router}/>
+ <Footer /> 
     </>
   )
 }

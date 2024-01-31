@@ -9,5 +9,11 @@
 
 .nav li {
     list-style: none;
+    color: red;
+    font-size: 2em;
+
+}
+.navWrapper{
+    
 
 }

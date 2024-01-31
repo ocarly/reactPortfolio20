@@ -2,7 +2,7 @@ import {Link, Outlet}from "react-router-dom"
 import "./nav.css"
 const Root = () => {
   return (
-    <div>
+    <div className = "navWrapper">
 <ul className="nav">
     <li>
         <Link to="/">Home</Link>

@@ -6,6 +6,7 @@ import Resume from "./components/Resume"
 import Root from "./components/Root"
 import Footer from "./components/Footer"
 import Particles from "react-tsparticles";
+import CustomParticles from "./components/Particles/CustomParticles"
 
 function App() {
   const router = createBrowserRouter(
@@ -30,8 +31,23 @@ function App() {
     },
   };
 
+  const customOptions = {
+    particles: {
+      shape: {
+        type: "circle",
+      },
+      size: {
+        value: 3,
+      },
+      color: {
+        value: "#00ff00",
+      },
+    },
+  };
+
   return (
     <>
+      <CustomParticles options={customOptions} />
       <RouterProvider router={router}/>
       <Particles 
         id="tsparticles"

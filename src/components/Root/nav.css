@@ -13,10 +13,10 @@
     font-size: 2em;
 }
 
-.navWrapper{
+/* .navWrapper{
     
 
-}
+} */
 
 .particles {
     position: fixed;
@@ -26,3 +26,4 @@
     height: 100%;
     z-index: -1;
   }
+
